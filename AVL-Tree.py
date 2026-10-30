@@ -173,7 +173,7 @@ class AVLTree:
 
     def preorder(self):
         if self.root is None:
-            return ""
+            return "Empty"
 
         values = []
         stack = [self.root]
